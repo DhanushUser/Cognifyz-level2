@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level-2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <nav>
+        
+        <div class="name">
+            <h2>Dhanush.</h2>
+        </div>
+
+        <ul id="menulist">
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact</li>
+        </ul>
+
+        <div class="menubar" id="menubar">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h3>Level-2 ( Task -1 )</h3>
+        <p>Hamburger Menu</p>
+    </div>
+
+    <!-- script -->
+
+    <script>
+
+        const List = document.getElementById("menulist");
+        const Menubar = document.getElementById("menubar");
+
+        Menubar.addEventListener("click", function(){
+            List.classList.toggle("active");
+        })
+
+    </script>
+    
+</body>
+</html>
